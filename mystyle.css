@@ -1,0 +1,102 @@
+body {
+  background-color: #D9F0FF;
+}
+
+h1 {
+  color: #3539A2;
+}
+h2 {
+  color: #3D43B8;
+}
+p {
+	color:#2C2F8C;
+}
+
+a {
+  text-decoration: none;
+  color: #3D43B8;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0;
+}
+
+nav {
+  background: #f1f1f1;;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon{
+	margin: 8px 8px 8px 8px;
+}
+
+.right-side{
+  display: flex;
+  padding-right: 30px;
+  font-size: 1.2em;
+}
+
+.left-side{
+  display: flex;
+}
+
+.links {
+  display: flex;
+}
+
+.sidebar {
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: block;
+  align-items: center;
+  height: 100%;
+}
+.sideitems{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 21px
+}
+
+.content{
+  flex-grow: 1;
+}
+
+#activelink{
+  color: limegreen;
+}
+
+.splitscreen{
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.roletext{
+  width: 800px;
+  font-size: 1.75em;
+}
+.howtotext{
+  width: 800px;
+  font-size: 1.75em;
+}
+
+.reftext{
+  padding-right: 30px;
+  font-size: 1.2em;
+}
+
+.navli{
+	font-size: 1.2em;
+	margin: 8px 8px 8px 8px;
+	padding: 0px 0px 0px 30px;
+  align-content: center;
+}
